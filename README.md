@@ -34,9 +34,11 @@ Or install it yourself as:
 
 ```
 SYNOPSIS
+
     sshcoin <command> [<subcommand>] [<options>]
 
 PROVIDER COMMANDS
+
     sshcoin providers
         Show a list of providers that support the sshcoin api
 
@@ -46,6 +48,7 @@ PROVIDER COMMANDS
         information from the provider.
 
 SERVER COMMANDS
+
     sshcoin servers
         Show a list of our servers. List includes hostname, ip_address, provider_id, server_id
 
@@ -82,6 +85,7 @@ WALLET COMMANDS
         Delete an empty wallet.
 
 ADDRESS COMMANDS
+
     sshcoin address generate <wallet_id> [<label>]
         Generate a new address in this wallet with optional label.
 
